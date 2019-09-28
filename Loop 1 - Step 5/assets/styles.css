@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(img/background.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+.card{
+	width: 400px;
+	height: 425px;
+	background-color: #fff;
+	margin: 6rem auto 0 auto;
+	border-radius: 5px;
+}
+
+.route{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.route span{
+	margin: auto;
+	/*width: 25px;
+	height: 5px;*/
+	font-weight: 400;
+}
+
+.fra{
+	margin-top: 25px;
+	float: left;
+	text-align: left;
+	font-weight: bolder;
+	line-height: 10px;
+	font-size: 20px;
+	color: #3B8ACF;
+}
+
+.fra h3:nth-child(2){
+	font-weight: 500;
+	font-size: 14px;
+	color: #AAAAAA;
+}
+
+.ned{
+	margin-top: 25px;
+	float: right;
+	text-align: right;
+	font-weight: bolder;
+	line-height: 10px;
+	font-size: 20px;
+	color: #3B8ACF;
+}
+
+.ned h3:nth-child(2){
+	font-weight: 500;
+	font-size: 14px;
+	color: #AAAAAA;
+}
+
+.flightinfo{
+	display: flex;
+	flex-direction: row;
+	text-transform: uppercase;
+	line-height: 10px;
+	font-size: 12px;
+	font-weight: 400;
+	height: 25px;
+	width: 80%;
+	padding-top: 55px;
+	margin: auto;
+	text-align: left;
+	color: #AAAAAA;
+
+}
+
+.flight{
+	margin-right: 30px;
+}
+.flight p:nth-child(2){
+	font-weight: 500;
+	color: #222;
+
+}
+
+.gate{
+	margin: 0 50px;
+}
+.gate p:nth-child(2){
+	font-weight: 500;
+	color: #222;
+
+}
+.seat{
+	margin-left: 30px;
+}
+.seat p:nth-child(2){
+	font-weight: 500;
+	color: #222;
+
+}
+
+.passengerinfo{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+	line-height: 10px;
+}
+
+.passengerinfo h3{
+	font-size: 14px;
+}
+
+.passengerinfo p{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	color: #AAAAAA;
+}
+
+.passenger{
+	width: 50%;
+	float: left;
+}
+
+.code{
+	width: 50%;
+	float: right;
+	padding-top: 10px;
+	/*background: url(img/qr.svg);*/
+}
+
+.code img{
+	width: 150px;
+	height: 150px;
+}

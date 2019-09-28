@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #F2CE97;
+}
+
+.card{
+	width: 70%;
+	margin: 4rem auto 0 auto;
+	height: 30rem;
+	background-color: #fff;
+	box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
+}
+
+.info{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background-color: #484956;
+}
+
+.title{
+	width: 80%;
+	margin: 4rem auto 0 auto;
+	font-size: 14px;
+	line-height: 10px;
+	color: white;
+}
+
+.title h1:nth-child(2){
+	font-weight: 400;
+}
+
+.writer{
+	width: 80%;
+	margin: 16rem auto 0 auto;
+	line-height: 3.5rem;
+}
+
+.writer img{
+	border-radius: 50%;
+	float: left;
+	width: 50px;
+	height: 50px;
+	box-shadow: 3px 5px 25px rgba(0,0,0,0.2);
+}
+
+.writer p{
+	margin-left: 65px;
+	color: white;
+}
+
+.article{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background-color: #ccc;
+}
+
+#article{
+	width: 90%;
+	margin: 3rem auto 0 auto;
+	font-size: 18px;
+}
+
+#article p:nth-child(1)::first-letter{
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+
+.date{
+	float: left;
+}
+
+.article footer{
+	width: 90%;
+	margin: auto;
+}
+
+.more{
+	float: right;
+	width: 15%;	
+	
+	display: flex;
+	flex-direction: row;
+	background-color: #ddd;
+	line-height: 
+}
+
+.more img{
+	width: 20px;
+	height: 20px;
+}
+
+.more img:nth-child(2){
+	float: right;	
+}

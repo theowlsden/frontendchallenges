@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	background-color: #85A5D4;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+.card-big{
+	width: 60%;
+	height: 300px;
+	background-color: #fff;
+	margin: 10% auto 0 auto;
+	border-radius: 5px;
+	justify-content: center;	
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item{
+	display: inline-grid;
+	width: 250px;
+	height: 300px;
+	align-content: space-between;
+	margin: 0 10px 0 10px;
+	padding: 0;
+
+}
+
+.item:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+	transition: 2s;
+	cursor: pointer;
+}
+
+.item img{
+	margin: 0 40%;
+	padding: 20px 0;
+	width: 60px;
+	height: 60px;
+
+}
+
+.item-title{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;	
+	color: #5878D9;
+	margin: 0;
+}
+
+
+.text{
+	text-align: center;
+	font-size: 14px;
+	color: #B6B0AD;
+	padding: 10px 25px;
+}
+
+.item:hover .text{
+	color: #333;
+	transition: 2s;
+}
+
+.price{
+	text-align: center;
+	padding: 10px 0;
+	color: #5878D9;
+}
+
+.price span:nth-child(1){
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.price span:nth-child(2){
+	font-weight: 700;
+	font-size: 26px;
+}
+
+
+.price span:nth-child(3){
+	font-size: 12px;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .card-big {
+    height: 60em;
+    padding-top: 2em;
+  }
+  body{
+  	overflow: scroll;
+  }
+}

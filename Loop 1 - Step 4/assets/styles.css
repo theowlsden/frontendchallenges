@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(#CCDBE7,#86A5C0);
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.chatbox{
+	width: 25%;
+	height: 450px;
+	margin: 7.5rem auto;
+	background-color: #fff;
+}
+
+.chatheader{
+	display: flex;
+	background-color: #6A96D8;
+	width: 100%;
+	height: 50px;
+}
+
+.chatheader p{
+	color: #fff;
+	margin-right: auto;
+	text-transform: uppercase;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.active{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.close{
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 17px;
+	cursor: pointer;
+}
+
+.messages{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.date{
+	margin: 0;
+}
+
+.date p{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	color: #ddd;
+
+}
+
+.date p span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.date p:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+
+.date p:before {
+  left: 0;
+}
+
+.message{
+	width: 75%;
+	height: 40px;
+	font-size: 12px;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.receiver{
+	/*background-color: #333;*/
+}
+.time{
+	font-size: 10px;
+	font-weight: 500;
+	color: #ccc;
+	padding: 0;
+	margin: 0;
+	/*background-color: #ccc;*/
+}
+
+.message .messagebody{
+	margin: 0;
+	background-color:#E6EDF6;
+	border-radius: 3px;
+	height: 50px;
+}
+
+.message .messagebody p{
+	padding: 10px;
+	vertical-align: middle;
+	font-weight: 700;
+}
+
+.sender{
+	/*background-color: #aaa;*/
+	margin-left: 25%;
+}
+
+.sender .time {
+	text-align: right;
+}
+
+.message:nth-child(4)  .messagebody{
+	width: 35%;
+	height: 40px !important;
+}
+
+.message:nth-child(5) .messagebody{
+	background-color: #FFC2C1;
+	height: 40px !important;
+	text-align: right;
+	float: right;
+	line-height: 0px;
+}
+
+.inputbox{
+	width: 80%;
+	margin: auto;
+	border-top: 1px solid #ddd;
+}
+
+.inputbox input{
+	width: 80%;
+	height: 36px;
+	border: none;
+}
+
+.inputbox a{
+	text-decoration: none;
+	color: #8BAEE1;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+

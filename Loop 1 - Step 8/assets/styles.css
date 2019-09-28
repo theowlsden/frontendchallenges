@@ -1,0 +1,170 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #F8EBE9;
+}
+
+h1, h3{
+	font-family: 'Playfair Display';	
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.card{
+	width: 70%;
+	height: 38em;
+	margin: 2em auto 0 auto;
+	background-color: #FFFFFF;
+	box-shadow: 0px 25px 55px #D8A99C;
+}
+
+.img-card{
+	width: 40%;
+	height: 100%;
+	background-image: url(img/background.jpg);
+	background-position: 0%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.back{
+	width: 6rem;
+	margin-left: 2em;
+	padding-top: 2em;
+
+}
+
+.back a svg{
+	width: 15px;
+	height: 15px;
+	vertical-align: text-bottom;
+}
+
+.back a{
+	background: none;
+	border: none;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	color: #637B99;
+
+}
+
+.article-card{
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+.land{
+	float: right;
+	margin-top: 2em;
+	margin-right: 1em;
+	text-transform: uppercase;
+}
+
+.land a{
+	padding: 0 0.5em;
+	color: #B4B4B4;
+	font-weight: 700;
+}
+
+.land .active{
+	color: #000;
+}
+
+.header{
+	width: 80%;
+	height: 40%;
+	margin: 10em auto 0 auto;
+}
+
+.header h1{
+	float: left;
+	width: 70%;
+	font-size: 55px;
+	font-weight: 500;
+	margin: 0;
+	line-height: 1.2em;
+}
+
+.header span{
+	float: right;
+	width: 30%;
+	vertical-align: text-bottom;
+	margin-top: 6.2em;
+}
+
+.header h3{
+	float: left;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.header h3 a{
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.blog{
+	width: 80%;
+	height: 20%;
+	margin: auto;
+}
+
+.video-card{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.video{
+	/* width: 100%; */
+	height: 80%;
+	background-image: url(img/preview.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.video img{
+	margin: 25px 55px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+}
+
+.all svg{
+	width: 15px;
+	height: 15px;
+	vertical-align: text-bottom;
+}
+
+.all a{
+	background: none;
+	border: none;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	color: #5E6778;
+}
+
+.info{
+	width: 50%;
+	float: right;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+.back:hover a, .all:hover a, .land a:hover{
+	color: #000;
+}
+
+.back:hover svg, .all:hover svg{
+	fill: #000;
+}
